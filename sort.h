@@ -22,6 +22,7 @@ void print_list(const listint_t *);
 void bubble_sort(int *, size_t);
 void insertion_sort_list(listint_t **);
 void selection_sort(int *, size_t);
-void quick_sort(int *array, size_t size);
+void quick_sort(int *, size_t);
+void shell_sort(int *, size_t);
 
 #endif /* ifndef SORT_H */
